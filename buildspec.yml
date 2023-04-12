@@ -25,6 +25,12 @@ batch:
     - identifier: build1
       ignore-failure: false
 
+    - identifier: build2
+      ignore-failure: false
+      
+    - identifier: build3
+      ignore-failure: false
+
 reports:
   codebuild-demo-report:
     files:
