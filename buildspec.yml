@@ -37,3 +37,4 @@ reports:
       - '**/*'
     base-directory: src/test/java
     discard-paths: false
+# test
