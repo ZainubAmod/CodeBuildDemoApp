@@ -9,7 +9,7 @@ phases:
       - echo Nothing to do in the pre_build phase...
   build:
     commands:
-      - echo "commit 6"
+      - echo "commit 7"
       - echo Build started on `date`
       - mvn install
   post_build:
