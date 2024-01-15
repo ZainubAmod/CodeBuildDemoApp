@@ -19,21 +19,21 @@ artifacts:
   files:
     - target/messageUtil-1.0.jar
 
-batch:
-  fast-fail: false
-  build-graph:
-    - identifier: build1
-      ignore-failure: false
+# batch:
+#   fast-fail: false
+#   build-graph:
+#     - identifier: build1
+#       ignore-failure: false
 
-    - identifier: build2
-      ignore-failure: false
+#     - identifier: build2
+#       ignore-failure: false
       
-    - identifier: build3
-      ignore-failure: false
+#     - identifier: build3
+#       ignore-failure: false
 
-reports:
-  codebuild-demo-report:
-    files:
-      - '**/*'
-    base-directory: src/test/java
-    discard-paths: false
+# reports:
+#   codebuild-demo-report:
+#     files:
+#       - '**/*'
+#     base-directory: src/test/java
+#     discard-paths: false
