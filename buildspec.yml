@@ -11,6 +11,7 @@ phases:
     commands:
       - echo Build started on `date`
       - echo "hello world"
+      - printenv
       - mvn install
   post_build:
     commands:
