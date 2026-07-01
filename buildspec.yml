@@ -11,6 +11,7 @@ phases:
     commands:
       - echo Build started on `date`
       - echo "hello world"
+      - echo $CODEBUILD_SOURCE_VERSION
       - mvn install
   post_build:
     commands:
