@@ -11,6 +11,9 @@ phases:
     commands:
       - echo Build started on `date`
       - echo "hello world"
+      -  echo $CODEBUILD_WEBHOOK_TRIGGER
+      -  echo $CODEBUILD_WEBHOOK_MERGE_COMMIT
+      -  echo $CODEBUILD_WEBHOOK_BASE_REF
       - mvn install
   post_build:
     commands:
